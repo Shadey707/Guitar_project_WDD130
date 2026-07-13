@@ -1,78 +1,54 @@
 <!DOCTYPE html>
-<style> 
-    h1 {
-        font-size: 100px;
-    }
-    p1 {
-        font-size: 50px;
-    }
-
-    a {
-        font-size: 35px;
-        margin-left: 100px;
-    }
-
-    h2 {
-        font-size: 50px;
-    }
-
-    h3 {
-        font-size: 50px;
-    }
-
-    img { 
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    #top{
-        display: flex;
-        display: grid;
-        margin: 0%;
-        align-items: right;
-        grid-column: 1 / 4;
-        grid-row: 1;
-    }
-
-    .sorter{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-</style>
+<!-- tempoary css for easier acess to changes -->
+ 
 <html>
     <head>
-        <title>cool Guitars</title>
+        <title>cool Guitars</title> 
+        <link rel="stylesheet" type="text/css" href="guitar.css">
     </head>
     <body>
+        <div class="container">
         <div class="sorter">
-        <div #id="top">
-            <img src="images/Logo.png" width="200px">
-            <header>
-                <h1>Briana's Free Guitar Lessons </h1>
-                <a href="index.html">Home</a>
-                <a href="styles.html">Styles</a>
-                <a href="chords.html">Chords</a>
-                <a href="songs.html">Songs</a>
-            </header>
-            <img src="images/Logo.png" width="200px">
+            <div class="help">
+            <div id="top">
+                <img id="logo1" src="images/Logo.png" width="200px">
+                <header id="head">
+                    <h1 >Briana's Free Guitar Lessons </h1>
+                    <a href="index.html">Home</a>
+                    <a href="styles.html">Styles</a>
+                    <a href="chords.html">Chords</a>
+                    <a href="songs.html">Songs</a>
+                </header>
+                <img id="logo2" src="images/Logo.png" width="200px">
+            </div>
+            <video src="guitarvid.mp4" width="500px" controls></video>
+            <br>
+            <p1>This will have the starting information and introduction to the website. 
+                Along with a lot of differnt dates and descrpitions and dates. 
+                It is going to contain a lot of differnt information rgarding guitars. 
+                Maybe some dates or other importanat people. or in all honest just whaterver Briana wants</p1>
+            <br>
+            <div id="pics">
+            <img id="aguitar" src="images/guitar.jpeg" width="300px">
+            <br>
+            <p1>Acoustic guitars are portable and allow for great instrumentation. There is a variety of songs you can play on Acoustic guitar and each with different styles. Acoustic guitars are fairly simple, when you pluck one of the 6 strings, the sound will travel through the guitar. The shape and volume of the guitar allows that sound to be amplified naturally.</p1>
+            <img id="eguitar" src="images/eguitar.jpeg" width="300px">
+            <p>Electric guitars are a great instrument when playing for large crowds and for more volume control. They require an amplifier connected to a speaker for the electric guitar sound. Electric guitars work nearly the same as an Acoustic guitar but the metal strings that will react with the “pickups” sending a signal to the amplifier and speaker when vibrated. These pickups are magnets wrapped in thousands of coils of copper wire that will sense a disruption of the magnetic field when the metallic string directly above the pickup vibrates. When the disruption is sensed by the pickups, the amplifier will amplify the signal being sent to the speaker.   </p>
+
+            </div>
+            <br>
+            <h2>History of the Guitar</h2>
+            <h3> After World War II, the guitar became one of the world's most popular musical instruments. Advances in manufacturing made guitars more affordable and widely available. The rise of rock and roll in the 1950s brought the electric guitar into the spotlight, with musicians such as Chuck Berry inspiring young people to learn the instrument. During the 1960s and 1970s, rock, folk, country, blues, and pop music all featured the guitar as a central instrument. As these styles spread through radio, television, and recordings, millions of people around the world began playing the guitar. Today, it remains one of the most popular instruments because it is portable, versatile, and used in nearly every style of music.</h3>
+            </div>
+            <div id="lessonlist">
+                <ul>
+                    <a href="lessons.html">Lesson 1</a>
+                    <a href="lesson2.html">Lesson 2</a>
+                    <a href="lesson3.html">Lesson 3</a>
+                </ul>
+
+            </div>
         </div>
-        <video src="guitarvid.mp4" width="500px" controls></video>
-        <br>
-        <p1>This will have the starting information and introduction to the website. 
-            Along with a lot of differnt dates and descrpitions and dates. 
-            It is going to contain a lot of differnt information rgarding guitars. 
-            Maybe some dates or other importanat people. or in all honest just whaterver Briana wants</p1>
-        <br>
-        <div id="pics">
-        <img src="images/guitar.jpeg">
-        <br>
-        <img src="images/eguitar.jpeg">
-        </div>
-        <br>
-        <h2>History of the Guitar</h2>
-        <h3> After World War II, the guitar became one of the world's most popular musical instruments. Advances in manufacturing made guitars more affordable and widely available. The rise of rock and roll in the 1950s brought the electric guitar into the spotlight, with musicians such as Chuck Berry inspiring young people to learn the instrument. During the 1960s and 1970s, rock, folk, country, blues, and pop music all featured the guitar as a central instrument. As these styles spread through radio, television, and recordings, millions of people around the world began playing the guitar. Today, it remains one of the most popular instruments because it is portable, versatile, and used in nearly every style of music.</h3>
         </div>
 </h3>
         <footer>
